@@ -1,0 +1,32 @@
+{
+  "name": "type-story",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^10.2.3",
+    "next-compose-plugins": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.8",
+    "babel-loader": "^8.2.2",
+    "typescript": "^4.3.2"
+  }
+}
