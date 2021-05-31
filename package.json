@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "loose": true,
   "scripts": {
     "dev": "next",
     "start": "next start",
@@ -26,7 +27,11 @@
     "@storybook/react": "^6.2.9",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.8",
+    "@whitespace/storybook-addon-html": "^5.0.0",
     "babel-loader": "^8.2.2",
+    "pug": "^2.0.4",
+    "pug-runtime": "^3.0.1",
+    "storypug": "*",
     "typescript": "^4.3.2"
   }
 }
